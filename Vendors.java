@@ -4,6 +4,7 @@ public class Vendors{
   protected int dateDelivery; // date of the delivery to keep track of perishable items
   protected int quantityItem; // quantity of the items delivered
   protected String nameItem; // product name of the item delivered 
+  protected double priceItem;
   
   public String getNameCompany(){
     return nameCompany;
@@ -35,6 +36,13 @@ public class Vendors{
   public void setNameItem(String nameItem){
     this.nameItem = nameItem;
   }
+  public double getPriceItem(){
+    return priceItem;
+  }
+  public void setPriceItem(double priceItem){
+    this.priceItem = priceItem;
+  }
+  
 }
   
   
